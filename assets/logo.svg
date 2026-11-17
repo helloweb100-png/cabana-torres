@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Cabaña Torres, Valle del Potrero">
+<style>
+.puntada{animation:coser 6s linear infinite}
+.humo circle{animation:humo 3.5s ease-in-out infinite}
+.humo circle:nth-child(2){animation-delay:.5s}
+.humo circle:nth-child(3){animation-delay:1s}
+@keyframes coser{to{stroke-dashoffset:-80}}
+@keyframes humo{0%,100%{transform:translateY(0);opacity:.4}50%{transform:translateY(-6px);opacity:1}}
+</style>
+<circle cx="80" cy="80" r="74" fill="#FFFDF6" stroke="#3E8E2A" stroke-width="8"/>
+<circle class="puntada" cx="80" cy="80" r="65" fill="none" stroke="#F4D21F" stroke-width="2.4" stroke-dasharray="2 6" stroke-linecap="round"/>
+<g class="humo" fill="#fff" stroke="#7C8B83" stroke-width="2"><circle cx="64" cy="50" r="6"/><circle cx="74" cy="43" r="7.5"/><circle cx="86" cy="47" r="6"/></g>
+<rect x="58" y="58" width="12" height="16" fill="#C8302F" stroke="#1B1B1B" stroke-width="2.5"/>
+<path d="M34 92 66 70H112L130 92Z" fill="#C8302F" stroke="#1B1B1B" stroke-width="3" stroke-linejoin="round"/>
+<rect x="40" y="92" width="84" height="34" fill="#E8D98D" stroke="#1B1B1B" stroke-width="3"/>
+<path d="M40 103H124M40 114H124M58 92v11M84 103v11M70 114v12M104 92v11" stroke="#B9A85E" stroke-width="1.5"/>
+<rect x="52" y="102" width="14" height="24" fill="#C8302F" stroke="#1B1B1B" stroke-width="2.5"/>
+<rect x="78" y="102" width="12" height="11" fill="#fff" stroke="#1B1B1B" stroke-width="2"/><rect x="100" y="102" width="12" height="11" fill="#fff" stroke="#1B1B1B" stroke-width="2"/>
+<g fill="#A87B50" stroke="#1B1B1B" stroke-width="2"><ellipse cx="29" cy="107" rx="11" ry="8"/><circle cx="39" cy="100" r="5"/><path d="M37 96 35 82Q40 80 41 94ZM41 95 45 83Q50 84 46 97Z"/></g>
+<g transform="rotate(-28 126 66)"><ellipse cx="126" cy="66" rx="16" ry="7" fill="#8A8F9A" stroke="#1B1B1B" stroke-width="2"/><path d="M141 66 152 58 150 74Z" fill="#8A8F9A" stroke="#1B1B1B" stroke-width="2"/><path d="M118 63l5 4 5-4 5 4 5-4" stroke="#C8302F" stroke-width="2" fill="none"/></g>
+</svg>
