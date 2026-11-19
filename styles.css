@@ -324,6 +324,10 @@ div.fila-t{cursor:default}
   .js .fila:hover .ing li{opacity:1;transform:none}
 }
 .nota{margin-top:1.2rem;font-size:.95rem;color:rgba(27,42,30,.8)}
+.bebidas-img{margin-top:1.4rem;max-width:300px}
+.bebidas-img a{display:block;border-radius:18px;overflow:hidden;border:1px solid rgba(27,42,30,.18);box-shadow:0 18px 40px -22px rgba(27,42,30,.55)}
+.bebidas-img img{width:100%;height:auto}
+.bebidas-img figcaption{margin-top:.6rem;font-size:.68rem;color:rgba(27,42,30,.7)}
 .casa{margin-top:2.6rem;padding:1.6rem;border-radius:24px;background:var(--papel-2);display:grid;gap:1rem;justify-items:start}
 .casa-l{display:flex;flex-wrap:wrap;gap:.5rem}
 .casa-l li{font:800 1.05rem var(--f-disp);padding:.45rem 1rem;border-radius:999px;background:var(--papel);border:2px dashed var(--ladrillo);color:var(--ladrillo)}
@@ -441,6 +445,21 @@ div.fila-t{cursor:default}
 .js:not(.rm) .vista-pre em{color:var(--maiz)}
 .js:not(.rm) .vista-txt{opacity:clamp(0,calc((var(--p) - .68)*5),1);transform:translateY(calc((1 - clamp(0,(var(--p) - .68)*5,1))*30px))}
 .js:not(.rm) .vista-txt .btn{pointer-events:auto}
+
+/* =========================================================
+   S8b · VIDEO
+   ========================================================= */
+.vid-promo{--em:var(--maiz);position:relative;background:var(--pino);color:var(--papel);padding:5rem 0 6rem;overflow-x:clip}
+.vid-grid{display:grid;gap:2.4rem}
+.vid-txt h2{color:#fff;max-width:14ch}
+.vid-lead{font-size:clamp(1.1rem,2.2vw,1.3rem);max-width:40ch;margin-top:1.2rem;color:rgba(251,244,228,.92)}
+.vid-caja{width:min(100%,340px);justify-self:center;border-radius:28px;overflow:hidden;background:#000;box-shadow:0 0 0 1px rgba(251,244,228,.16),0 34px 80px -24px rgba(0,0,0,.7)}
+.vid-caja video{width:100%;height:auto;aspect-ratio:9/16;object-fit:contain;background:#000}
+@media (min-width:900px){
+  .vid-promo{padding:8rem 0 9rem}
+  .vid-grid{grid-template-columns:minmax(0,1fr) auto;gap:4.5rem;align-items:center}
+  .vid-caja{justify-self:end}
+}
 
 /* =========================================================
    S9 · GALERÍA
